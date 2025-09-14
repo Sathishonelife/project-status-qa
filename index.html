@@ -39,44 +39,51 @@
             color: #555;
             line-height: 1.6;
         }
-        .status-badge {
-            display: inline-block;
-            padding: 4px 12px;
-            background-color: #28a745;
-            color: white;
-            border-radius: 12px;
-            font-size: 12px;
-            margin-left: 10px;
+        .status-highlight {
+            background-color: #e7f3ff;
+            padding: 10px;
+            border-radius: 4px;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Project Status Q&A <span class="status-badge">Live</span></h1>
+        <h1>Project Status Q&A</h1>
         
         <div class="qa-item">
-            <div class="question">Q: What is the current status of the project?</div>
-            <div class="answer">A: The project is currently in active development phase. We have completed the initial setup and are working on core features implementation.</div>
+            <div class="question">Q: What is the current project completion status?</div>
+            <div class="answer">
+                <div class="status-highlight">Project completion status: 50%</div>
+                <p>The project is currently at the halfway point, with significant progress made on core functionality and initial development phases.</p>
+            </div>
         </div>
-        
+
         <div class="qa-item">
-            <div class="question">Q: What milestones have been completed?</div>
-            <div class="answer">A: ✓ Repository setup complete<br>✓ GitHub Pages configuration<br>✓ Basic project structure established</div>
+            <div class="question">Q: When are the project demos scheduled?</div>
+            <div class="answer">
+                <strong>Demo Schedule:</strong>
+                <ul>
+                    <li><strong>First Demo:</strong> 1st week of October 2025</li>
+                    <li><strong>Second Demo:</strong> 1st week of November 2025</li>
+                </ul>
+                <p>These demos will showcase the project's progress and key features to stakeholders and reviewers.</p>
+            </div>
         </div>
-        
+
         <div class="qa-item">
-            <div class="question">Q: What are the next steps?</div>
-            <div class="answer">A: The upcoming milestones include feature development, testing implementation, and client feedback integration.</div>
-        </div>
-        
-        <div class="qa-item">
-            <div class="question">Q: How can clients track progress?</div>
-            <div class="answer">A: Clients can monitor project updates through this live page, which will be regularly updated with current status and milestones.</div>
-        </div>
-        
-        <div class="qa-item">
-            <div class="question">Q: When was this page last updated?</div>
-            <div class="answer">A: <span id="last-updated">September 14, 2025</span></div>
+            <div class="question">Q: Do you require any other details or further discussion?</div>
+            <div class="answer">
+                <p>We welcome feedback from reviewers and stakeholders. Please let us know if you need:</p>
+                <ul>
+                    <li>Additional technical details about specific features</li>
+                    <li>More detailed timeline information</li>
+                    <li>Resource allocation details</li>
+                    <li>Risk assessment and mitigation strategies</li>
+                    <li>Any other project-related information</li>
+                </ul>
+                <p>Feel free to reach out for further discussion or clarification on any aspect of the project.</p>
+            </div>
         </div>
     </div>
 </body>
